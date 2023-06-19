@@ -43,4 +43,4 @@ def predict(text):
     y_pred_pred = model.predict(texts_seq, verbose=1, batch_size=2)
 
     print(round(y_pred_pred[0][0],4))
-print(predict('Влад лох, сосет хуй'))
+print(predict('Влад лох'))
