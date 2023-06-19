@@ -7,7 +7,7 @@ from lem import lem
 from keras.utils.data_utils import pad_sequences
 import pickle
 
-TOKEN = '6040554759:AAHsxxJMPbtql2Rf3RNF0Tq_gv-JRGGX88A'  # Замените на ваш Telegram Bot token
+
 
 
 bot = Bot(token=TOKEN)
